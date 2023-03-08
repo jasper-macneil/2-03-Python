@@ -1,9 +1,8 @@
-# 2-03-Python
-import time 
+import time
 import board
 import digitalio
 
-led = digitalio.DigitalInOut(board.LED)
+led = digitalio.DigitalInOut(board.GP14)
 led.direction = digitalio.Direction.OUTPUT
 
 while True:
